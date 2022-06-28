@@ -1,0 +1,670 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    height: 4500px;
+}
+.tout{
+    height: 96px;
+    width: 100%;
+    position: relative;
+}
+
+.logo{
+    width: 10%;
+    height: 96px;
+    float: left;
+    position: relative;
+   
+
+
+}
+.logo p  {
+    right: 0;
+   position: absolute;
+   text-align: center;
+   margin-top: 30px;
+   font-size: 32px;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 800;
+
+ 
+
+}
+.logo p i{
+    font-size: 17px;
+    margin-right: 0px;
+    color:#3498db;
+    position: absolute;
+    left: -5px;
+    top: -1px;
+    transform: rotate(-20deg);
+   
+}
+.logo p span{
+
+    color:#487eb0;
+    padding: 0 12px;
+    margin-left: 5px;
+    border-radius: 4px;
+    background-color: #2f3640;
+ 
+}
+
+.nav{
+    width: 75%;
+    height: 96px;
+    float: left;
+    position: relative;
+    
+ 
+}
+.nav .main-nav{
+    position: absolute;
+    left: 180px;
+}
+.nav .main-nav>li {
+    float: left;
+    margin:27px 30px ;
+    line-height: 40px;
+  
+    
+}
+.nav .main-nav>li>a{
+ color:/* #dcdde1*/#7f8c8d;
+transition: ease-in-out 0.4s all;
+font-size: 22px;
+font-weight: 500;
+
+   
+}
+.nav .main-nav>li>a:hover{
+   
+    color: #3498db;
+  
+
+}
+.nav .main-nav .cp{
+    position: relative;
+}
+.nav .main-nav .cp .min-cp {
+position: absolute;
+width: 200px;
+background-color: #f5f6fa;
+padding: 5px;
+display: none;
+padding: 20px 30px;
+top: 43px;
+border-radius: 4px ;
+z-index: 11;
+}
+
+
+
+.nav .main-nav .cp .cp3{
+    width: 300px;
+}
+
+.nav .main-nav .min-cp li a{
+    transition: all 0.5s linear;
+    color: #3498db;
+    font-size: 21px;
+    font-weight: 500;
+}
+.nav .main-nav .min-cp li a:hover{
+  margin-left: 15px;
+}
+
+.enter{
+    width: 15%;
+    height: 96px;
+    float:left;
+    position: relative;
+
+}
+.enter .btn{
+    text-align: center;
+    margin-top: 27px;
+}
+.enter .btn1 ,.enter .btn2 {
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+.enter .btn2{
+    border: solid 0px #dcdde1;
+    padding: 7px 12px;
+    margin-left: 4px;
+    background-color:#487eb0;
+    border-radius: 4px;
+    transition: all .4s ease-in-out;
+}
+.nav .main-nav .min-cp li a i{
+margin-right: 15px;
+}
+
+
+.nav .main-nav .cp:hover .min-cp{
+    display: block;
+}
+.nav .main-nav .min-cp::before{
+ content: "";
+ border-left: 8px solid transparent ;
+ border-right: 8px solid transparent;
+ border-bottom:8px solid #f5f6fa ;
+ position: absolute;
+ height: 0;
+ width: 0;
+ top: -8px;
+ left: 20px;
+}
+.enter .btn2:hover{
+    opacity: 0.9;
+}
+/*-------------------------------------------deux-phrase------------------------------------------------*/
+.image .img111 {
+    width: 100%;
+    height: 600px;
+   
+   
+}
+ .vilo i{
+    position: absolute;
+    bottom: 150px;
+ 
+
+}
+
+
+.image .princip{
+    position:absolute;
+    text-align: center;
+    top: 220px;
+    background-color: #ecf0f1;
+    width: 600px ;
+    height: 300px;
+    left: 30%;
+padding:20px 10px;
+opacity: 0.9;
+border-radius:4px ;
+
+    
+}
+.image .princip  .mini-princip{
+    position: absolute;
+    top: 120px;
+
+}
+.image .princip  .mini-princip .fa-xbox{
+    position: absolute;
+    top: -75px;
+    left: 45%;
+    color: #487eb0;
+} 
+
+
+.image .princip  .mini-princip p{
+    margin-top: 20px;
+    font-size: 19px;
+    color:/* #487eb0*/ #3498db;
+    line-height: 26px;
+}
+.image .princip  .mini-princip .car{
+    margin-top: 20px;
+ 
+}
+.image .princip  .mini-princip .car .i-inp1{
+    position: relative;
+}
+.image .princip  .mini-princip .car .i-inp1 i{
+    position: absolute;
+    left: 20px;
+    bottom: 0px;
+    font-size: 20px;
+    font-weight: 600;
+    top: 1px;
+    color: #7f8c8d;
+}
+
+.image .princip  .mini-princip .inp1{
+border: none;
+outline: none;
+width: 410px;
+height: 40px;
+border-bottom:solid 2px deepskyblue ;
+padding-left: 50px;
+padding-top: 10px;
+padding-bottom: 10px;
+background: none;
+border: solid 2px #7f8c8d ;
+border-radius: 4px;
+
+}
+.image .princip  .mini-princip .inp2{
+border: none;
+outline: none;
+background: none;
+margin-left: 10px;
+background-color: #487eb0;
+padding: 4px 18px 6px 18px;
+border-radius: 4px;
+font-size: 21px;
+cursor: pointer;
+}
+
+/*---------------------------------partie3---------------------------------------------------------------*/
+
+.partie3{
+    width: 100%;
+    height: 1070px;
+    top: 100px;
+    position: relative;
+   background-color: #ecf0f1;
+   
+}
+
+.partie3 .h2 h2{
+    margin-left: 63px;
+    margin-bottom: 80px;
+    font-size: 28px;
+    border-left: 7px solid #487eb0;
+    padding-left: 7px;
+    position: relative;
+    top: 30px;
+}
+.partie3 .div1{
+width: 300px;
+height: 400px;
+position: relative;
+
+
+}
+
+.partie3 .div1 .min-div1-1{
+  width: 100%;
+  height: 70%;
+
+
+}
+.partie3 .div1 .min-div1-1 img{
+    width: 100%;
+    height: 70%;
+    position: absolute;
+}
+.partie3 .div1 .min-div1-2{
+    width: 100%;
+    height: 30%;
+
+    position: relative;
+
+}
+.partie3 img{
+  /*  border-radius: 4px;*/
+    transition: ease-in-out all 0.4s;
+
+}
+
+.partie3 .div2{
+    width: 300px;
+    height: 400px;
+
+    position: relative;
+}
+.partie3 .div2 .min-div2-1{
+    width: 100%;
+    height: 70%;
+
+  }
+  .partie3 .div2 .min-div2-1 img{
+    width: 100%;
+    height: 70%;
+    position: absolute;
+}
+  .partie3 .div2 .min-div2-2{
+      width: 100%;
+      height: 30%;
+  
+      position: relative;
+  }
+.partie3 .div3{
+    width: 300px;
+    height: 400px;
+    position: relative;
+}
+.partie3 .div3 .min-div3-1{
+    width: 100%;
+    height: 70%;
+  
+  
+  }
+  .partie3 .div3 .min-div3-1 img{
+    width: 100%;
+    height: 70%;
+    position: absolute;
+}
+  .partie3 .div3 .min-div3-2{
+      width: 100%;
+      height: 30%;
+
+     
+  }
+.partie3 .div4{
+    width: 300px;
+    height: 400px;
+}
+
+
+.partie3 .div4 .min-div4-1{
+    width: 100%;
+    height: 70%;
+    
+  
+  }
+  .partie3 .div4 .min-div4-1 img{
+    width: 100%;
+    height: 70%;
+    position: absolute;
+ }
+  .partie3 .div4 .min-div4-2{
+      width: 100%;
+      height: 30%;
+    
+  }
+.partie3 .div5{
+    width: 300px;
+    height: 400px;
+  
+}
+.partie3 .div5 .min-div5-1{
+    width: 100%;
+    height: 70%;
+    
+  
+  }
+  .partie3 .div5 .min-div5-1 img{
+    width: 100%;
+    height: 70%;
+    position: absolute;
+}
+  .partie3 .div5 .min-div5-2{
+      width: 100%;
+      height: 30%;
+     
+  }
+  .partie3 .pt{
+      position: relative;
+  }
+.partie3 .div6{
+    width: 300px;
+    height: 400px;
+  
+}
+.partie3 .div6 .min-div6-1{
+    width: 100%;
+    height: 70%;
+
+  
+  }
+  .partie3 .div6 .min-div6-1 img{
+    width: 100%;
+    height: 70%;
+    position: absolute;
+}
+  .partie3 .div6 .min-div6-2{
+      width: 100%;
+      height: 30%;
+   
+     
+  }
+.partie3 .div7{
+    width: 300px;
+    height: 400px;
+   
+}
+.partie3 .div7 .min-div7-1{
+    width: 100%;
+    height: 70%;
+ 
+  
+  }
+  .partie3 .div7 .min-div7-1 img{
+    width: 100%;
+    height: 70%;
+    position: absolute;
+}
+  .partie3 .div7 .min-div7-2{
+      width: 100%;
+      height: 30%;
+
+     
+      
+  }
+.partie3 .div8{
+    width: 300px;
+    height: 400px;
+    
+}
+
+.partie3 .div8 .min-div8-1{
+    width: 100%;
+    height: 70%;
+   
+  
+  }
+  .partie3 .div8 .min-div8-1 img{
+    width: 100%;
+    height: 70%;
+    position: absolute;
+
+}
+
+  .partie3 .div8 .min-div8-2{
+      width: 100%;
+      height: 30%;
+  
+      
+  }
+.partie3 .pr{
+    float: left;
+    margin-left: 63px;
+    position: relative;
+  box-shadow: 1px 6px 6px rgb(0, 0, 0,0.2);
+    cursor: pointer;
+
+}
+
+
+.partie3 .pr1{
+    margin-bottom: 63px;
+}
+.partie3 .pr .pt .sin{
+ text-align: center;
+    line-height: 30px;
+    padding-top: 10px;
+}
+.partie3 .pr .pt .h3{
+
+}
+.partie3 .pr .pt .sin span{
+    font-size: 20px;
+    font-weight: 700;
+    color:#7f8c8d;
+}
+.partie3 .pr .pt .sin li .a1 {
+    border: solid 2px #487eb0;
+    padding: 6px 0px;
+    padding-left: 30px;
+    border-radius: 50px;
+    transition: all linear 0.3s;
+    color: #487eb0;
+    font-weight: 600;
+
+}
+.partie3 .pr .pt{
+    background-color: #dcdde1;
+  /*border-radius: 4px;*/
+}
+
+
+    
+.partie3 .pr .pt .sin li i{
+    margin-left: 27px;
+    padding-right:5px ;
+    color: #487eb0;
+}
+.partie3 .pr .pt .sin li{
+    margin-top: 5px;
+    font-size: 16px;
+ 
+
+ 
+}
+.partie3 .pr .pt .sin li {
+    transition: ease-in-out all 0.4s;
+}
+
+.partie3 .pr .pt .sin li:hover{
+    transform: scale(1.1);
+    
+}
+
+/*-------------------------------------------------------partie4--------------------------------------------*/
+.partie4{
+    width: 100%;
+    height: 450px;
+    background-color: #f5f6fa;  
+    margin-top: 200px;  
+    
+ 
+}
+.partie4 .f1{
+    height: 500px;
+    width: 50%;
+    float: left;
+    position: relative;
+}
+.partie4 .f2{
+    height: 450px;
+    width: 50%;
+    float: left;
+position: relative;    
+}
+.partie4 .f2 img{
+    position: absolute;
+    width: 95%;
+    height: 100%;
+}
+.partie4 .f1 .min-f1{
+    position: absolute;
+    left: 110px;
+    top: 120px;
+}
+.partie4 .f1 .min-f1 h2{
+    color: #487eb0;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.partie4 .f1 .min-f1 .p{
+margin-bottom:10px ;
+color: #7f8c8d;
+font-size: 19px;
+width: 400px;
+}
+.partie4 .f1 .min-f1 .pl{
+    color: #2f3640;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.partie4 .f1 .min-f1 .pl i{
+    color: #487eb0;
+    margin-right: 10px;
+}
+/*--------------------------------------------partie5-------------------------------------------*/
+.partie5 {  
+position: relative;
+height:300px ;
+width: 100%;
+margin-top: 150px;
+
+
+}
+.partie5 .mi1{
+ 
+    width: 250px;
+    height: 93%;
+    position: absolute;
+    left: 220px;
+  
+}
+.partie5 .mi2{
+    width: 250px;
+    height: 93%;
+    position: absolute;
+    left: 630px;
+}
+.partie5 .mi3{
+    width: 250px;
+    height: 93%;
+    position: absolute;
+    left: 1030px;
+}
+.partie5 .rama {
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    background-color: #f5f6fa;
+    padding-top: 10px;
+    padding: 15px;
+    cursor: pointer;
+    transition: all ease-in .3s;
+
+  
+   
+}
+.partie5 .rama p{
+    margin-top: 10px;
+    color:#2f3640;
+    font-size: 19px;
+    font-weight:bold;
+}
+.partie5 .rama:hover p{
+    color: #dcdde1;
+}
+
+.partie5 .rama .go:hover{
+    transform: scale(1.5);
+    transform: rotate(360deg);
+}
+.partie5 .rama:hover{
+    background-color: #2f3640;
+    transform: scale(1.03);
+    box-shadow: 1px 1px 10px #2f3640;
+
+  
+    }
+
+
+.partie5 .rama .go{
+    color: #487eb0;
+    position: absolute;
+    right: 20px;
+    font-size: 20px;
+    transition: all ease-in .3s;
+}
+.partie5 .mi1 .fn1 , .mi2 .fn2 , .mi3 .fn3{
+    font-size: 24px;
+    color: #487eb0;
+  
+}
+.partie5 .mi1 h3 , .mi2 h3 , .mi3 h3{
+    color: #7f8c8d;
+}
